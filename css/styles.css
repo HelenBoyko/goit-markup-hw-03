@@ -21,12 +21,23 @@ body {
     background: #FFFFFF;
 }
 
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 .list {
     list-style: none;
 }
 
 .link {
     text-decoration: none;
+}
+
+.nav-container {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .logo-header {
@@ -38,6 +49,8 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .logo-color {
@@ -50,11 +63,17 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    display: inline-block;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 4px transparent;
 }
 
 .menu-link:hover,
 .menu-link:focus {
     color: #404BBF;
+    border-bottom: 4px solid var(--accent-color);
 }
 
 .menu-link.current {
