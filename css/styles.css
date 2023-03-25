@@ -302,7 +302,6 @@ img {
     margin-left: calc(-1 * var(--card-set-gap));
     margin-top: calc(1 * var(--card-set-gap));
     margin-bottom: 120px;
-    /* padding: 0; */
 }
 
 .portfolio-gallery>.item-gallery {
