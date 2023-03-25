@@ -208,7 +208,6 @@ img {
 .features-list {
     display: flex;
     gap: 24px;
-
 }
 
 .feature {
@@ -248,13 +247,11 @@ img {
 .team-card {
     width: 264px;
     background-color: #FFFFFF;
-    text-align: center;
-    padding-bottom: 32px;
 }
 
-.team-card img {
-    margin-bottom: 32px;
-
+.team-container {
+    padding: 32px 16px;
+    text-align: center;
 }
 
 /* MAIN PORTFOLIO */
