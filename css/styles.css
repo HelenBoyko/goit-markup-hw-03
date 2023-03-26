@@ -61,6 +61,8 @@ img {
 
 .nav-line {
     display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .nav-menu-container {
@@ -98,8 +100,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     border-bottom: 4px solid transparent;
     border-top: 0;
 
@@ -118,13 +120,13 @@ img {
 .address-block {
     font-style: normal;
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
     margin-left: auto;
 }
 
 .contact {
     color: #434455;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .contact:hover,
@@ -136,7 +138,8 @@ img {
 .hero {
     text-align: center;
     background: #2E2F42;
-    height: 600px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-title {
@@ -144,7 +147,6 @@ img {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    padding-top: 188px;
     margin: 0 auto;
     margin-bottom: 48px;
     width: 496px;
@@ -200,8 +202,12 @@ img {
 }
 
 .features,
-.doing,
 .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.doing h2 {
     padding-top: 120px;
 }
 
@@ -227,7 +233,7 @@ img {
     flex-direction: row;
     justify-content: space-between;
     padding-top: 72px;
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
     gap: 24px;
 }
 
@@ -241,7 +247,7 @@ img {
     flex-direction: row;
     gap: 24px;
     padding-top: 72px;
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
 }
 
 .team-card {
@@ -256,8 +262,9 @@ img {
 
 /* MAIN PORTFOLIO */
 /* top menu */
-.buttons-container {
+.portfolio-container {
     margin-top: 96px;
+    margin-bottom: 120px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -298,10 +305,9 @@ img {
 .portfolio-gallery {
     display: flex;
     flex-wrap: wrap;
-
     margin-left: calc(-1 * var(--card-set-gap));
     margin-top: calc(1 * var(--card-set-gap));
-    margin-bottom: 120px;
+
 }
 
 .portfolio-gallery>.item-gallery {
