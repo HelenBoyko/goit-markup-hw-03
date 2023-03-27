@@ -202,13 +202,13 @@ img {
 }
 
 .features,
+.doing,
 .team {
     padding-top: 120px;
-    padding-bottom: 120px;
 }
 
-.doing h2 {
-    padding-top: 120px;
+.doing, .team {
+    padding-bottom: 120px;
 }
 
 .features-list {
@@ -233,7 +233,6 @@ img {
     flex-direction: row;
     justify-content: space-between;
     padding-top: 72px;
-    /* padding-bottom: 120px; */
     gap: 24px;
 }
 
@@ -247,7 +246,6 @@ img {
     flex-direction: row;
     gap: 24px;
     padding-top: 72px;
-    /* padding-bottom: 120px; */
 }
 
 .team-card {
@@ -321,7 +319,8 @@ img {
 }
 
 .gallery-card {
-    box-shadow: var(--card-shadow);
+    border: 1px solid #E7E9FC;
+    /* box-shadow: var(--card-shadow); */
 }
 
 /* FOOTER */
@@ -334,11 +333,11 @@ img {
 
 .footer-text {
     font-size: 16px;
-    line-height: 1, 5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
     width: 264px;
-    padding-top: 16px;
+    margin-top: 16px;
 }
 
 .logo-footer {
