@@ -38,7 +38,7 @@ img {
     height: auto;
 }
 
-/* Header */
+/* ------------ Header ------------ */
 .header {
     background: #FFFFFF;
     margin-top: 0;
@@ -134,7 +134,7 @@ img {
     color: #404BBF;
 }
 
-/* HERO */
+/*  ------------ HERO ------------ */
 .hero {
     text-align: center;
     background: #2E2F42;
@@ -175,8 +175,8 @@ img {
     background-color: #404BBF;
 }
 
-/* MAIN INDEX*/
-/* Sections */
+/* ------------ MAIN INDEX ------------ */
+    /*  ------------ Sections  ------------ */
 .section-title {
     font-weight: 700;
     font-size: 36px;
@@ -232,7 +232,7 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 72px;
+    margin-top: 72px;
     gap: 24px;
 }
 
@@ -245,7 +245,7 @@ img {
     display: flex;
     flex-direction: row;
     gap: 24px;
-    padding-top: 72px;
+    margin-top: 72px;
 }
 
 .team-card {
@@ -258,8 +258,8 @@ img {
     text-align: center;
 }
 
-/* MAIN PORTFOLIO */
-/* top menu */
+/*  ------------ MAIN PORTFOLIO ------------ */
+    /*  ------------ top menu ------------  */
 .portfolio-container {
     padding-top: 96px;
     padding-bottom: 120px;
@@ -298,7 +298,7 @@ img {
     color: #FFFFFF;
 }
 
-/* card gallery */
+    /*  ------------ card gallery ------------  */
 
 .portfolio-gallery {
     display: flex;
@@ -323,7 +323,7 @@ img {
     /* box-shadow: var(--card-shadow); */
 }
 
-/* FOOTER */
+/* ------------ FOOTER ------------ */
 .footer-bg {
     background: #2E2F42;
     color: #F4F4FD;
